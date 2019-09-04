@@ -9837,45 +9837,32 @@ html {
 /* Custom Mixins -------------------- */
 /* Base Styles -------------------- */
 body {
-  background: #333;
-  color: #fff; }
+  margin-top: 105px; }
 
 .navbar {
-  border-bottom: #008ed6 3px solid;
-  opacity: 0.8; }
+  box-shadow: 2px 2px 5px #3292a6;
+  opacity: 0.9;
+  background: #fff; }
+  .navbar .nav-item {
+    font-size: 1.4rem;
+    padding-right: 1.4rem; }
 
-#home-section {
-  background-image: url("../img/home.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-  min-height: 700px; }
+#showcase {
+  position: relative;
+  background: url("../img/mountains.jpg");
+  min-height: 600px; }
+  #showcase .primary-overlay {
+    background: rgba(50, 146, 166, 0.8);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0; }
 
-#home-section .dark-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  min-height: 700px;
-  background-color: rgba(0, 0, 0, 0.7); }
-
-#home-section .home-inner {
-  padding-top: 150px; }
-
-#home-section .card-form {
-  opacity: 0.8; }
-
-#home-section .fas, #create-section .fas {
-  color: #008ed6;
-  background-color: #fff;
-  padding: 5px;
-  border-radius: 5px; }
-
-#explore-section .fas, #share-section .fas {
-  background: #333;
-  color: #fff;
-  padding: 5px;
-  border-radius: 5px; }
+@media (max-width: 768px) {
+  #showcase {
+    min-height: 500px; }
+    #showcase h1 {
+      font-size: 4rem; } }
 
 /*# sourceMappingURL=main.css.map */
