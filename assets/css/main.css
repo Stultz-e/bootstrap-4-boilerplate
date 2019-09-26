@@ -9836,5 +9836,16 @@ html {
 
 /* Custom Mixins -------------------- */
 /* Base Styles -------------------- */
+.background {
+  background-size: cover;
+  background-position: center;
+  height: 100vh; }
+
+.hero {
+  color: #fff; }
+  .hero__headline {
+    margin-top: -1rem; }
+  .hero__subhead {
+    font-weight: 400; }
 
 /*# sourceMappingURL=main.css.map */

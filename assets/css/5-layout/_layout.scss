@@ -1,0 +1,17 @@
+.background {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.hero {
+    color: #fff;
+
+    &__headline {
+        margin-top: -1rem;
+    }
+
+    &__subhead {
+        font-weight: 400;
+    }
+}
