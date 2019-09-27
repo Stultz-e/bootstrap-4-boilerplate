@@ -1,17 +1,30 @@
 .background {
+    @include media-breakpoint-up(lg) {
+        height: 100vh;
+    }
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 80vh;
+    position: relative;
+    background-repeat: no-repeat;
 }
 
 .hero {
     color: #fff;
 
     &__headline {
-        margin-top: -1rem;
+        @include media-breakpoint-up(lg) {
+
+        }
     }
 
     &__subhead {
         font-weight: 400;
     }
+
+    &__img {
+        bottom: 100px;
+        transform: translateX(-30px);
+    }
 }
+
