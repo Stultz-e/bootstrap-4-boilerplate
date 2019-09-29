@@ -9867,23 +9867,17 @@ html {
   .mx-xl-auto {
     margin-left: auto !important; } }
 
-.background {
-  background-size: cover;
-  background-position: center;
-  height: 80vh;
-  position: relative;
-  background-repeat: no-repeat; }
-  @media (min-width: 992px) {
-    .background {
-      height: 100vh; } }
-
 .hero {
-  color: #fff; }
+  color: #fff;
+  height: 100vh; }
+  @media (min-width: 992px) {
+    .hero {
+      height: 80vh; } }
+  .hero__image {
+    top: 0;
+    left: 0;
+    overflow: hidden; }
   .hero__subhead {
     font-weight: 400; }
-  .hero__img {
-    bottom: 100px;
-    -webkit-transform: translateX(-30px);
-            transform: translateX(-30px); }
 
 /*# sourceMappingURL=main.css.map */
