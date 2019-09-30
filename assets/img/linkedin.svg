@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="31" height="32" viewBox="0 0 31 32">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_17" data-name="Rectangle 17" width="31" height="32" transform="translate(0.023 -0.488)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_3" data-name="Mask Group 3" transform="translate(-0.023 0.488)" clip-path="url(#clip-path)">
+    <g id="logo-circle-linkedin" transform="translate(0.276 0.138)">
+      <path id="Filled_Icons" d="M15.373,0A15.373,15.373,0,1,0,30.747,15.373,15.391,15.391,0,0,0,15.373,0Zm-3.2,21.139H9.608V12.171h2.562ZM10.89,9.608a1.281,1.281,0,1,1,1.281-1.281A1.281,1.281,0,0,1,10.89,9.608ZM23.7,21.139H19.857V16.655a.641.641,0,0,0-1.281,0v4.484H14.733s.04-8.3,0-8.968h3.843v1.07a2.506,2.506,0,0,1,2.187-.965c1.986,0,2.938,1.435,2.938,4.223Z" transform="translate(0 0)" fill="#fff"/>
+      <path id="Frames-24px" d="M0,0H30.747V30.747H0Z" transform="translate(0 0)" fill="none"/>
+    </g>
+  </g>
+</svg>
