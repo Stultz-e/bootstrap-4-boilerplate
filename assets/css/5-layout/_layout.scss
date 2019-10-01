@@ -58,17 +58,16 @@
 
     .card {
         &--gradient-1 {
-            background: transparent linear-gradient(180deg, rgba(71, 119, 230, 0.76) 0%, rgba(141, 84, 233, 0.774) 100%) 0% 0% no-repeat; 
-    
+            background: linear-gradient(to right, #e43b15d5, #e65245d2);
         }
         
         &--gradient-2 {
-            background: transparent linear-gradient(180deg, rgba(252, 143, 0, 0.781) 0%, rgba(239, 22, 22, 0.801) 100%) 0% 0% no-repeat padding-box;
+            background: linear-gradient(to right, #00c8ffd7, #0073ffd2);
     
         }
     
         &--gradient-3 {
-            background: transparent linear-gradient(180deg, rgba(104, 223, 0, 0.74) 0%, rgba(30, 223, 0, 0.712) 100%) 0% 0% no-repeat padding-box;
+            background: linear-gradient(to right, #005d97d0, #25279ed3);
         }
     }
 }
@@ -87,7 +86,6 @@
     @include media-breakpoint-up(lg) {
         padding: 5rem 0;
         min-height: 6rem;
-        margin-bottom: 4rem;
     }
 }
 
@@ -95,7 +93,7 @@
     padding-bottom: 2rem;
     
     @include media-breakpoint-up(lg) {
-        padding-bottom: 6rem;
+        padding: 6rem 0;
     }
 }
 
